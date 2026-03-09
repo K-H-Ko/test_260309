@@ -19,7 +19,17 @@ git push -u 별명 브랜치명
 git pull : 원격저장소에서 내 로컬 저장소로 가져올 때 사용
 git add 파일명 : 수정 및 생성 작업을 진행했을 때 임시저장소에 반영
 git commit -m "커밋내용" : 임시 저장소의 내용을 버전관리 시작
-# 원격 저장소에 동기화 
+# 원격 저장소에 동기화
 git push : 로컬 저장소의 내용을 원격 저장소로 반영
 ```
 
+# frontend 명령어
+
+```bash
+# frontend 라는 이름으로 프론트엔드 프로젝트 생성
+npx create-react-app frontend
+# frontend 폴더로 이동
+cd frontend
+# frontend 실행
+npm run start
+```
